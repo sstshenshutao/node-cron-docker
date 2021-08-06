@@ -1,0 +1,10 @@
+version: '3' 
+
+services:
+  yiqing:
+    image: yiqingxxx
+    container_name: yiqingxxx-container
+    ports:
+      - 8080:8080
+    restart: unless-stopped
+
